@@ -20,7 +20,7 @@ The script will convert CSV file into JSON file using the same name used for CSV
 
 Excel format: Top row must be the names you want to use in JSON name:value pair. This script will automatically calculate the number of columns you have. Line 2 onwards includes the value you wish to in JSON name:value pair. For example:
 
-![Excel Format](https://raw.github.com/Sandworks/csv_json_convert/excel_format.PNG)
+![Excel Format](https://github.com/Sandworks/csv_json_convert/blob/f673498a0b43a9abeaaf2c687664d2e2017a9623/excel_format.PNG)
 
 ./csv_json_host_list.py device_list.csv
 
