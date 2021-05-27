@@ -18,30 +18,22 @@ or
 
 The script will convert CSV file into JSON file using the same name used for CSV. For example:
 
-**device_list.xlsx**
-
 Excel format: Top row must be the names you want to use in JSON name:value pair. This script will automatically calculate the number of columns you have. Line 2 onwards includes the value you wish to in JSON name:value pair. For example:
 
-![Excel Format](https://github.com/Sandworks/csv_json_convert/blob/f673498a0b43a9abeaaf2c687664d2e2017a9623/excel_format.PNG)
-
-**device_list.csv**
-
-Save device_list.xlsx as a comma-separated values file (CSV)
-
-**device_list.json**
+[Excel](https://github.com/Sandworks/network/images/excel_format.PNG)
 
 ./csv_json_host_list.py device_list.csv
 
 Typing the above command will generate into JSON format as shown:
 
-![JSON Format](https://github.com/Sandworks/csv_json_convert/blob/6afc3b81ecaa670d419af891920ecacffb11b6b6/json_format.PNG)
+ 
+
+Note: Save the Excel spreadsheet into CSV format before using this script.
 
 ## Additional Notes:
 
 You can change the object title to whatever you want. For example, change the variable “json_based_list” to whatever you like JSON format to use.
 
-![JSON Based List](https://github.com/Sandworks/csv_json_convert/blob/6afc3b81ecaa670d419af891920ecacffb11b6b6/json_based_list.PNG)
+ 
 
-Enjoy!
 
-James.
